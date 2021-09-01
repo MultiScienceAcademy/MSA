@@ -1,0 +1,38 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/u1008067/public_html/
+    - /bin/cp asesuaula.html $DEPLOYPATH
+    - /bin/cp aulabasicfinancialaccounting.html $DEPLOYPATH
+    - /bin/cp aulabisnisplan.html $DEPLOYPATH
+    - /bin/cp aulacv.html $DEPLOYPATH
+    - /bin/cp auladebate.html $DEPLOYPATH
+    - /bin/cp aulaexcelforaccounting.html $DEPLOYPATH
+    - /bin/cp aulafingermatic.html $DEPLOYPATH
+    - /bin/cp aulageneralexcel.html $DEPLOYPATH
+    - /bin/cp aulahakerekblog.html $DEPLOYPATH
+    - /bin/cp aulahakerekessay.html $DEPLOYPATH
+    - /bin/cp aulahakereklivru.html $DEPLOYPATH
+    - /bin/cp aulahakereknovel.html $DEPLOYPATH
+    - /bin/cp aulahakerekpaper.html $DEPLOYPATH
+    - /bin/cp aulaingles.html $DEPLOYPATH
+    - /bin/cp aulaIOT.html $DEPLOYPATH
+    - /bin/cp aulaistoriabadak.html $DEPLOYPATH
+    - /bin/cp aulaliteraturreview.html $DEPLOYPATH
+    - /bin/cp aulamandarin.html $DEPLOYPATH
+    - /bin/cp aulanewscasting.html $DEPLOYPATH
+    - /bin/cp aulapodcast.html $DEPLOYPATH
+    - /bin/cp aulapublicspeaking.html $DEPLOYPATH
+    - /bin/cp aularesearchdata.html $DEPLOYPATH
+    - /bin/cp aulaskripsi.html $DEPLOYPATH
+    - /bin/cp aulastorytelling.html $DEPLOYPATH
+    - /bin/cp aulawebdesign.html $DEPLOYPATH
+    - /bin/cp blog.html $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp kompetisaun.html $DEPLOYPATH
+    - /bin/cp kona-baMSA.html $DEPLOYPATH
+    - /bin/cp mentor.html $DEPLOYPATH
+    - /bin/cp nonwriting.html $DEPLOYPATH
+    - /bin/cp prestasaun.html $DEPLOYPATH
+    - /bin/cp writing.html $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
